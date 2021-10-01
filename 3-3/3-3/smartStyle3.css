@@ -1,0 +1,67 @@
+
+
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+
+    .wrapper {
+        width: 200px;
+        float: none; /* 要素の浮動化の解除 */
+    }
+    
+    .header {
+        width: 200px;
+        height: 200px;
+    }
+    .header-inner{
+
+        height: 160px;
+        width: 60px;
+        position: relative;
+        top: 20px;
+        right: 70px;
+    }
+    .header-box1{
+        position: relative ;
+        top: 10px;
+        right: 10px;
+    }
+    .header-box2{
+        position: relative ;
+        top: 20px;
+        right: 10px;
+    }
+    .header-box3{
+        position: relative ;
+        top: 30px;
+        right: 10px;
+    }
+    .right { 
+        width: 200px; 
+        height: 210px;
+
+    }
+    .right-boxa {
+        position: relative ;
+        top: 20px;
+        right: 30px;
+    }
+    .right-boxb {
+        position: relative ;
+        top: 30px;
+        right: 30px;
+    }
+    .right-boxc {
+        position: relative ;
+        top: 40px;
+        right: 30px;
+    }
+    .left {
+        width: 200px; 
+        height: 100px;
+    }
+    .footer {
+        width: 200px;
+    }
+
+}
